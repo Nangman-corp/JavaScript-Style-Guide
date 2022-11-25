@@ -945,7 +945,7 @@ export default es6;
 
 </aside>
 
-# 6. 제어문
+# 6. 제어문(Control statements)
 
 ### 6.1 반복문(loops)
 
