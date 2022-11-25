@@ -995,7 +995,7 @@ switch (input) {
 }
 ```
 
-### 6.3 조건식과 등가식 ****(Comparison Operators & Equality)****
+### 6.3 조건식과 등가식(Comparison Operators and Equality)
 
 ---
 
