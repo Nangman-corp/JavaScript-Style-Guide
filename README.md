@@ -1405,6 +1405,6 @@ const foo = { clark: 'kent' };
 ---
 ### Contributors
 ---
-[이현석](https://github.com/orgs/Nangman-corp/people/seok20)이 편집하였습니다.
+[이현석](https://github.com/orgs/Nangman-corp/people/seok20)이 작성하였습니다.
 
 -[Contributors](https://github.com/Nangman-corp/JavaScript-Style-Guide/graphs/contributors)
