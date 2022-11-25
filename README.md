@@ -525,7 +525,7 @@ for (i = 0; i < len; i++) {
 (O)const itemsCopy = [...items];
 ```
 
-### 3.5 구조 분해 대입 (****Destructuring)****
+### 3.5 구조 분해 대입(Destructuring)
 
 ---
 
