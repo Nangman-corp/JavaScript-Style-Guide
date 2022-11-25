@@ -835,7 +835,7 @@ function handleThings(name, opts = {}) {
 }
 ```
 
-### 4.2 화살표함수 (Arrow Functions)
+### 4.2 화살표함수(Arrow Functions)
 
 ---
 
@@ -877,9 +877,9 @@ function handleThings(name, opts = {}) {
 [1, 2, 3].map(x => x * x);
 ```
 
-# 5. 클래스와 모듈
+# 5. 클래스와 모듈(Class and module)
 
-### 5.1 클래스와 구조체 (Classes & Constructors)
+### 5.1 클래스와 구조체(Classes and structures)
 
 ---
 
@@ -947,7 +947,7 @@ export default es6;
 
 # 6. 제어문
 
-### 6.1 반복문 (loops)
+### 6.1 반복문(loops)
 
 ---
 
@@ -974,7 +974,7 @@ const sum = numbers.reduce((total, num) => total + num, 0);
 sum === 15;
 ```
 
-### 6.2 스위치문 (switch)
+### 6.2 스위치문(switch)
 
 ---
 
@@ -1033,7 +1033,7 @@ if (collection.length) {
 }
 ```
 
-# 7. 기타
+# 7. 기타(The Others)
 
 ### 7.1 ****이터레이터와 제너레이터(Iterators and Generators)****
 
@@ -1074,7 +1074,7 @@ sum === 15;
 
 </aside>
 
-### 7.2 프로퍼티 (Properties)
+### 7.2 프로퍼티(Properties)
 
 ---
 
@@ -1157,7 +1157,7 @@ if (test) {
 }
 ```
 
-### 7.4 코멘트 (Comments)
+### 7.4 코멘트(Comments)
 
 ---
 
