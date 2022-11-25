@@ -754,10 +754,11 @@ function foo() {
 ```
 
 <aside>
-❓ 이름이 부여된 함수선언은 콜스택에서 간단하게 확인하는 것이 가능합니다. 또한 함수선언은 함수의 본체가 hoist 되어집니다. 그에 반해 함수식은 참조만이 hoist 되어집니다. 이 룰에 의해 함수식의 부분을 항상 [Arrow함수](https://github.com/tipjs/javascript-style-guide#arrow%ED%95%A8%EC%88%98arrow-functions)
+❓ 이름이 부여된 함수선언은 콜스택에서 간단하게 확인하는 것이 가능하며 함수선언은 함수의 본체가 hoist 되어집니다. 그에 반해 함수식은 참조만이 hoist 되어집니다.</aside> 
+이 룰에 의해 함수식의 부분을 항상 [Arrow함수](https://github.com/tipjs/javascript-style-guide#arrow%ED%95%A8%EC%88%98arrow-functions)
 에서 이용하는것이 가능합니다.
 
-</aside>
+
 
 2. 함수 이외의 블록 (if나 while 등) 안에서 함수를 선언하지 마십시오.
 
