@@ -43,7 +43,7 @@ this._firstName = 'Panda';
 this.firstName = 'Panda';
 ```
 
-1. this를 변수의 값으로 사용하지 않습니다. 필요할 경우 화살표 함수(Arrow Function)이나 바인딩을 통해 사용하십시오.
+3. this를 변수의 값으로 사용하지 않습니다. 필요할 경우 화살표 함수(Arrow Function)이나 바인딩을 통해 사용하십시오.
 
 ```
 (X)
@@ -62,7 +62,7 @@ function bar() {
 }
 ```
 
-1. 가독성을 위해 약어는 Camel Case로 표기합니다.
+4. 가독성을 위해 약어는 Camel Case로 표기합니다.
 
 ```
 (X)
@@ -83,7 +83,7 @@ const HttpRequests = [
 
 ```
 
-1. 파일을 1개의 클래스로 export 하는 경우 파일명은 클래스명과 완전히 일치시켜주세요.
+5. 파일을 1개의 클래스로 export 하는 경우 파일명은 클래스명과 완전히 일치시켜주세요.
 
 ```jsx
 // file contents
@@ -146,7 +146,7 @@ function makeStyleGuide() {
 export default makeStyleGuide;
 ```
 
-1. 이름에 복수형을 표기하지 않습니다.
+6. 이름에 복수형을 표기하지 않습니다.
 
 ```
 (X)
@@ -156,7 +156,7 @@ let delivery_notes = ["one", "two"];
 let delivery_note_list = ["one", "two"];
 ```
 
-1. 줄임말을 사용하지 않습니다.
+7. 줄임말을 사용하지 않습니다.
 
 ```
 (X)
@@ -166,7 +166,7 @@ let del_note = 1;
 let delivery_note = 1;
 ```
 
-1. private 프로퍼티명은 앞에 언더스코어 `_` 를 사용해주세요.
+8. private 프로퍼티명은 앞에 언더스코어 `_` 를 사용해주세요.
 
 ```jsx
 (O)
@@ -191,7 +191,7 @@ helloworld.pdf
 app.js
 ```
 
-1. 패키지의 이름은 lowerCamelCase로 표기합니다.
+2. 패키지의 이름은 lowerCamelCase로 표기합니다.
 
 ```
 (X)
@@ -202,7 +202,7 @@ my.example_code.deep_space
 my.exampleCode.deepSpace
 ```
 
-1. 파일의 이름은 default export의 이름과 일치해야 합니다.
+3. 파일의 이름은 default export의 이름과 일치해야 합니다.
 
 ```jsx
 // file 1 contents
@@ -257,7 +257,7 @@ function MyFunction() {...}
 function myFunction() {...}
 ```
 
-1. 함수의 이름은 동사 또는 동사 구문으로 표기해주세요.
+2. 함수의 이름은 동사 또는 동사 구문으로 표기해주세요.
 
 ```jsx
 (X)
@@ -270,7 +270,7 @@ function setBar() { ... } // setter
 function hasCoo() { ... } // booleans
 ```
 
-1. 함수의 파라미터는 lowerCamelCase로 표기해주세요.
+3. 함수의 파라미터는 lowerCamelCase로 표기해주세요.
     
     단, 한글자의 파라미터는 public 메소드에서는 사용하지 않습니다.
     
@@ -295,7 +295,7 @@ const thisIsMyObject = {};
 function thisIsMyFunction() {}
 ```
 
-1. 객체를 export 할 때는 PascalCase로 표기합니다.
+2. 객체를 export 할 때는 PascalCase로 표기합니다.
 
 ```jsx
 (O)
@@ -326,7 +326,7 @@ const good = new User({
 });
 ```
 
-1. 클래스의 이름은 명사 또는 명사 구문으로 표기해주세요.
+2. 클래스의 이름은 명사 또는 명사 구문으로 표기해주세요.
     
     또한, 인터페이스의 경우 명사 대신 형용사 또는 형용사 구문으로 표기할 수 있습니다!
     
@@ -346,7 +346,7 @@ Primitive type에 대한 예시는 아래와 같습니다.
 - `boolean`
 - `null`
 - `undefined`
-1. Complex: 참조형(Complex)는 참조를 통해 값을 조작합니다.
+2. Complex: 참조형(Complex)는 참조를 통해 값을 조작합니다.
 
 Complex type에 대한 예시는 아래와 같습니다.
 
@@ -375,7 +375,7 @@ const a = 1;
 const b = 2;
 ```
 
-1. 참조를 재할당 해야한다면 var 대신 let을 사용해야 합니다.
+2. 참조를 재할당 해야한다면 var 대신 let을 사용해야 합니다.
 
 <aside>
 ❓ `var` 같은 함수 스코프보다는 블록스코프의 `let` 이 더 유리하기 때문입니다!
@@ -415,7 +415,7 @@ const item = new Object();
 const item = {};
 ```
 
-1. 예약어 대신 알기쉬운 동의어를 사용하세요.
+2. 예약어 대신 알기쉬운 동의어를 사용하세요.
 
 ```
 (X)
@@ -434,7 +434,7 @@ const superman = {
 };
 ```
 
-1. 오브젝트 내 메소드를 사용할 경우 단축구문을 사용하세요.
+3. 오브젝트 내 메소드를 사용할 경우 단축구문을 사용하세요.
 
 ```
 (X)
@@ -456,7 +456,7 @@ const atom = {
 };
 ```
 
-1. 프로퍼티의 단축 구문은 오브젝트 선언의 시작부분에 그룹화하여 사용하세요.
+4. 프로퍼티의 단축 구문은 오브젝트 선언의 시작부분에 그룹화하여 사용하세요.
 
 ```
 const name = '홍길동';
@@ -498,7 +498,7 @@ const items = new Array();
 const items = [];
 ```
 
-1. 직접 배열에 항목을 대입하지 말고, Array.push를 사용해주세요.
+2. 직접 배열에 항목을 대입하지 말고, Array.push를 사용해주세요.
 
 ```
 const someStack = [];
@@ -508,7 +508,7 @@ const someStack = [];
 (O)someStack.push('abracadabra');
 ```
 
-1. 배열을 복사할 때는 배열의 spread 연산자인 `...` 를 사용해주세요.
+3. 배열을 복사할 때는 배열의 spread 연산자인 `...` 를 사용해주세요.
 
 ```
 const someStack = [];
@@ -557,7 +557,7 @@ function getFullName({ firstName, lastName }) {
 
 </aside>
 
-1. 배열의 구조 분해 대입을 사용해주세요.
+2. 배열의 구조 분해 대입을 사용해주세요.
 
 ```
 const arr = [1, 2, 3, 4];
@@ -584,7 +584,7 @@ const name = "Capt. Janeway";
 const name = 'Capt. Janeway';
 ```
 
-1. 100문자 이상의 문자열을 문자열 연결을 사용해서 복수행에 걸쳐 기술해주세요.
+2. 100문자 이상의 문자열을 문자열 연결을 사용해서 복수행에 걸쳐 기술해주세요.
 
 ```
 (X)
@@ -607,7 +607,7 @@ const errorMessage = 'This is a super long error that was thrown because ' +
 
 </aside>
 
-1. 프로그래밍 내에서 문자열을 생성하는 경우, 문자열 연결이 아닌 template strings를 사용해주세요.
+3. 프로그래밍 내에서 문자열을 생성하는 경우, 문자열 연결이 아닌 template strings를 사용해주세요.
 
 ```
 (X)
@@ -630,7 +630,7 @@ function sayHi(name) {
 
 </aside>
 
-1. `eval()` 함수의 사용은 반드시 금지합니다!!
+4. `eval()` 함수의 사용은 반드시 금지합니다!!
 
 ### 3.7 변수 (Variables)
 
@@ -646,7 +646,7 @@ superPower = new SuperPower();
 const superPower = new SuperPower();
 ```
 
-1. 하나의 변수선언에 대해 하나의  `const` 를 사용해주세요.
+2. 하나의 변수선언에 대해 하나의  `const` 를 사용해주세요.
 
 <aside>
 ❓ 이 방법의 경우, 간단히 새 변수를 추가하는게 가능하기 때문입니다!
@@ -670,7 +670,7 @@ const isTrue = true;
 const values = 'z';
 ```
 
-1. 지역 변수는 그 변수를 포함하는 블록 시작에서 선언하지 않고 사용 범위를 최소화하기 위해 사용되는 지점과 가장 가까운 곳에서 선언해주세요.
+3. 지역 변수는 그 변수를 포함하는 블록 시작에서 선언하지 않고 사용 범위를 최소화하기 위해 사용되는 지점과 가장 가까운 곳에서 선언해주세요.
 
 ```jsx
 (O)
@@ -716,7 +716,7 @@ function(hasName) {
 }
 ```
 
-1. JSDoc을 위한 주석은 변수 선언 이전 혹은 변수 이름 이전에 작성합니다.
+4. JSDoc을 위한 주석은 변수 선언 이전 혹은 변수 이름 이전에 작성합니다.
 
 ```jsx
 (X)
@@ -759,9 +759,9 @@ function foo() {
 
 </aside>
 
-1. 함수 이외의 블록 (if나 while 등) 안에서 함수를 선언하지 마십시오.
+2. 함수 이외의 블록 (if나 while 등) 안에서 함수를 선언하지 마십시오.
 
-1. 절대 파라미터에 `arguments` 를 지정하지 마십시오. 함수스코프에 전해지는  `arguments` 오브젝트의 참조를 덮어 씌워 버립니다.
+3. 절대 파라미터에 `arguments` 를 지정하지 마십시오. 함수스코프에 전해지는  `arguments` 오브젝트의 참조를 덮어 씌워 버립니다.
 
 ```
 (X)
@@ -775,7 +775,7 @@ function yup(name, options, args) {
 }
 ```
 
-1. 절대 `arguments` 를 이용하지 마십시오. 대신에 rest syntax `...` 를 사용해주세요.
+4. 절대 `arguments` 를 이용하지 마십시오. 대신에 rest syntax `...` 를 사용해주세요.
 
 <aside>
 ❓ `...`을 이용하는 것으로 몇개의 파라메터를 이용하고 싶은가를 확실하게 할 수 있습니다. 또한 rest 파라메터는 `arguments` 와 같은 Array-like 오브젝트가 아닌 진짜 Array 입니다.
@@ -795,7 +795,7 @@ function concatenateAll(...args) {
 }
 ```
 
-1. 함수의 파라미터를 변경하여 사용하는 것보다 default 파라미터를 사용해주세요.
+5. 함수의 파라미터를 변경하여 사용하는 것보다 default 파라미터를 사용해주세요.
 
 ```
 (X) really bad !!!
@@ -860,7 +860,7 @@ function handleThings(name, opts = {}) {
 
 </aside>
 
-1. 함수 식이 복수행으로 걸쳐있을 경우에는 가독성을 위해 소괄호 ()로 감싸주세요.
+2. 함수 식이 복수행으로 걸쳐있을 경우에는 가독성을 위해 소괄호 ()로 감싸주세요.
 
 ```
 (O)
@@ -870,7 +870,7 @@ function handleThings(name, opts = {}) {
 ));
 ```
 
-1. 함수의 인수가 하나인 경우 소괄호()를 생략할 수 있습니다.
+3. 함수의 인수가 하나인 경우 소괄호()를 생략할 수 있습니다.
 
 ```
 (O)
@@ -901,9 +901,9 @@ class PeekableQueue extends Queue {
 }
 ```
 
-1. prototype을 직접 조작하지 않고 class를 사용해주세요.
+2. prototype을 직접 조작하지 않고 class를 사용해주세요.
 
-1. toString() 메소드를 오버라이딩 하는 것을 허용하지만 사이드 이펙트가 나타나지 않도록 주의해주세요.
+3. toString() 메소드를 오버라이딩 하는 것을 허용하지만 사이드 이펙트가 나타나지 않도록 주의해주세요.
 
 ### 5.2 모듈(Modules)
 
@@ -917,7 +917,7 @@ import { es6 } from './NangmanStyleGuide';
 export default es6;
 ```
 
-1. wildcard import는 사용하지 마십시오.
+2. wildcard import는 사용하지 마십시오.
 
 ```
 (X)
@@ -929,7 +929,7 @@ import * as NangmanStyleGuide from './NangmanStyleGuide';
 
 </aside>
 
-1. import 문으로부터 직접 export 하는 것은 피해주세요.
+3. import 문으로부터 직접 export 하는 것은 피해주세요.
 
 ```
 (X)
@@ -1001,7 +1001,7 @@ switch (input) {
 
 1. `==` 이나 `!=`보다 `===` 와 `!==` 을 사용해 주십시오
 
-1. if문과 같은 조건식은 `ToBoolean` 메소드에 의한 강제 형변환으로 평가되어 항상 다음과 같은 간단한 룰을 따릅니다.
+2. if문과 같은 조건식은 `ToBoolean` 메소드에 의한 강제 형변환으로 평가되어 항상 다음과 같은 간단한 룰을 따릅니다.
 - **오브젝트** 는 **true** 로 평가됩니다.
 - **undefined** 는 **false** 로 평가됩니다.
 - **null** 은 **false** 로 평가됩니다.
@@ -1009,7 +1009,7 @@ switch (input) {
 - **수치** 는 **true** 로 평가됩니다. 하지만 **+0, -0, or NaN** 의 경우는 **false** 입니다.
 - **문자열** 은 **true** 로 평가됩니다. 하지만 빈문자 `''` 의 경우는 **false** 입니다.
 
-1. 단축혁을 사용해주세요.
+3. 단축혁을 사용해주세요.
 
 ```jsx
 (X)
@@ -1067,7 +1067,7 @@ const sum = numbers.reduce((total, num) => total + num, 0);
 sum === 15;
 ```
 
-1. 현 시점에서는 generators는 사용하지 마십시오.
+2. 현 시점에서는 generators는 사용하지 마십시오.
 
 <aside>
 ❓ ES5로 트랜스파일을 잘 하지 않기 때문입니다!
@@ -1093,7 +1093,7 @@ const isJedi = luke['jedi'];
 const isJedi = luke.jedi;
 ```
 
-1. 변수를 사용하여 프로퍼티에 접근할 경우 대괄호 `[]`를 사용해주세요.
+2. 변수를 사용하여 프로퍼티에 접근할 경우 대괄호 `[]`를 사용해주세요.
 
 ```
 const luke = {
@@ -1136,7 +1136,7 @@ function() {
 }
 ```
 
-1. 복수행 블록의 `if` 와 `else` 를 이용하는 경우 `else`는 `if` 블록 끝의 중괄호(})와 같은 행에 위치시켜 주십시오.
+2. 복수행 블록의 `if` 와 `else` 를 이용하는 경우 `else`는 `if` 블록 끝의 중괄호(})와 같은 행에 위치시켜 주십시오.
 
 ```jsx
 (X)
@@ -1180,7 +1180,7 @@ function make(tag) {
 }
 ```
 
-1. 단일행 코멘트에는 `//` 을 사용해 주세요. 코멘트를 추가하고 싶은 코드의 위에 작성해주세요. 또한 코멘트 앞에 빈행을 넣어주세요.
+2. 단일행 코멘트에는 `//` 을 사용해 주세요. 코멘트를 추가하고 싶은 코드의 위에 작성해주세요. 또한 코멘트 앞에 빈행을 넣어주세요.
 
 ```jsx
 (O)
@@ -1202,7 +1202,7 @@ function getType() {
 }
 ```
 
-1. 문제에 대한 사항에 대해서는 `FIXME -- 해결이 필요` 를 사용해주세요.
+3. 문제에 대한 사항에 대해서는 `FIXME -- 해결이 필요` 를 사용해주세요.
 
 ```jsx
 class Calculator extends Abacus {
@@ -1215,7 +1215,7 @@ class Calculator extends Abacus {
 }
 ```
 
-1. 문제의 해결책에 대한 주석으로 `// TODO:` 를 사용해 주세요.
+4. 문제의 해결책에 대한 주석으로 `// TODO:` 를 사용해 주세요.
 
 ```jsx
 class Calculator extends Abacus {
@@ -1241,7 +1241,7 @@ function() {
 }
 ```
 
-1. 주요 중괄호 ({}) 앞에는 스페이스 1개를 넣어주세요.
+2. 주요 중괄호 ({}) 앞에는 스페이스 1개를 넣어주세요.
 
 ```jsx
 (O)
@@ -1250,7 +1250,7 @@ function test() {
 }
 ```
 
-1. 제어구문 (`if`문이나 `while`문 등)의 소괄호 (()) 앞에는 스페이스 1개를 넣어주세요. (함수 선언이나 함수 호출 시 인수 리스트의 앞에는 스페이스를 넣지 말아주세요.)
+3. 제어구문 (`if`문이나 `while`문 등)의 소괄호 (()) 앞에는 스페이스 1개를 넣어주세요. (함수 선언이나 함수 호출 시 인수 리스트의 앞에는 스페이스를 넣지 말아주세요.)
 
 ```jsx
 (O)
@@ -1264,14 +1264,14 @@ function fight() {
 }
 ```
 
-1. 연산자 사이에 스페이스를 1개 넣어주세요.
+4. 연산자 사이에 스페이스를 1개 넣어주세요.
 
 ```jsx
 (O)
 const x = y + 5;
 ```
 
-1. 메소드를 길게 채이닝 하는 경우에는 인덴트를 사용해주세요. 행이 새로운 문이 아닌 메소드 호출인 것을 강조하기 위해서 점 (.)을 넣어주세요.
+5. 메소드를 길게 채이닝 하는 경우에는 인덴트를 사용해주세요. 행이 새로운 문이 아닌 메소드 호출인 것을 강조하기 위해서 점 (.)을 넣어주세요.
 
 ```jsx
 (O)
@@ -1293,7 +1293,7 @@ const leds = stage.selectAll('.led')
     .call(tron.led);
 ```
 
-1. 문의 앞과 블록의 뒤에는 빈행을 남겨주세요.
+6. 문의 앞과 블록의 뒤에는 빈행을 남겨주세요.
 
 ```jsx
 (O)
@@ -1308,7 +1308,7 @@ const arr = [
 return arr;
 ```
 
-1. 블록에는 빈행을 넣지 말아주세요.
+7. 블록에는 빈행을 넣지 말아주세요.
 
 ```jsx
 (O)
@@ -1324,7 +1324,7 @@ if (baz) {
 }
 ```
 
-1. 소괄호() 안쪽에는 스페이스를 넣지 말아주세요.
+8. 소괄호() 안쪽에는 스페이스를 넣지 말아주세요.
 
 ```jsx
 (X)
@@ -1338,7 +1338,7 @@ function bar(foo) {
 }
 ```
 
-1. 대괄호 ([])의 안쪽에는 스페이스를 추가하지 말아주세요.
+9. 대괄호 ([])의 안쪽에는 스페이스를 추가하지 말아주세요.
 
 ```jsx
 (X)
@@ -1350,7 +1350,7 @@ const foo = [1, 2, 3];
 console.log(foo[0]);
 ```
 
-1. 중괄호 ({})의 안쪽에는 스페이스를 추가해주세요.
+10. 중괄호 ({})의 안쪽에는 스페이스를 추가해주세요.
 
 ```jsx
 (X)
