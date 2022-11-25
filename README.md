@@ -1,7 +1,7 @@
 # JavaScript Style Guide
 
 <aside>
-💡 본문은 낭만(Nangman)의 JavaScript 스타일 가이드 입니다. 구글 Java 가이드를 참고하여 작성하였습니다.
+💡 본문은 낭만(Nangman)의 JavaScript 스타일 가이드 입니다. 구글 JavaScript 가이드를 참고하여 작성하였습니다.
 
 </aside>
 
