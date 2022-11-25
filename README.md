@@ -733,7 +733,7 @@ const /** !Array<number> */ data = [];
 const data = [];
 ```
 
-# 4. 함수
+# 4. 함수(Functions)
 
 ### 4.1 함수(Functions)
 
